@@ -9,7 +9,7 @@
     margin: auto;
 }
 body{
-    font-family:Whitney,Helvetica Neue,Arial, Helvetica,Arial,sans-serif;
+    font-family:"Whitney","Helvetica Neue",Arial, Helvetica,Arial,sans-serif;
     color: #707374;
 }
 img{
@@ -26,8 +26,8 @@ img{
 .w60{
     width: 60%;
 }
-.w40{
-    width: 40%;
+.w70{
+    width: 70%;
 }
 .logo{
     vertical-align: middle;
@@ -42,7 +42,7 @@ img{
     margin-top: 10%;
 }
 .content h1{
-    font-size: 60px;
+    font-size: 55px;
     
 }
 .content p{
@@ -53,10 +53,15 @@ img{
 .col{
     float: left;
 }
-
-figure{
-    position: relative;
+.img-right{
+    text-align: right;
 }
+.img-left{
+    text-align: left;
+}
+
+
+
 
 
 
@@ -133,6 +138,10 @@ text-align: center;
     background-color: white;
     
 }
+.btn-lightblue{
+    background-color: #8EA1E1;
+    
+}
 .btn-dark{
     background-color: #23272A;
     color: white;
@@ -153,9 +162,43 @@ text-align: center;
     
     position: relative;
     bottom:30px;
-    width: 80%;
+    right: 50px;
+    
     
 }
+/*sezione channel*/
+#channel img{
+    position: relative;
+    bottom: 30px;
+    
+}
+/*sezione spotlight*/
+#spotlight img{
+    width: 100%;
+}
+.start-adventure{
+    text-align: center;
+    background-image: url(..//img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    
+
+}
+.start-adventure h1{
+   font-size: 30px;
+   padding: 30px;
+
+}
+.start-adventure a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    
+}
+
+    
+
 
 
 
